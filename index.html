@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pepsi Website</title>
+
+    <!-- remix icon cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="nav container">
+        <!-- logo -->
+        <a href="#" class="nav__logo">
+          <img src="img/logo.png" alt="Pepsi Logo" class="logo" />
+        </a>
+
+        <!-- menu list -->
+        <ul class="nav__menu">
+          <li class="menu__item">Product</li>
+          <li class="menu__item">What's new</li>
+          <li class="menu__item">Newsletter</li>
+          <li class="menu__item">Contact Us</li>
+        </ul>
+
+        <!-- buy button -->
+        <button class="nav__btn">Buy Products</button>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main class="main container">
+      <!-- arrow -->
+      <div class="main__arrows">
+        <div class="prev">
+          <i class="ri-arrow-left-line"></i>
+          <p>Previous</p>
+        </div>
+        <div class="next">
+          <p>Next</p>
+          <i class="ri-arrow-right-line"></i>
+        </div>
+      </div>
+
+      <!-- both sections -->
+      <div class="main__sections">
+        <!-- section left -->
+        <section class="left__section">
+          <!-- product content -->
+          <div class="product__content">
+            <h1 class="product__name" id="product-name">Pepsi Classic</h1>
+            <p class="product__description">
+              Carbonated Water, High Fructose, Corn Syrup, Caramel Color, Sugar
+              Phosphoric Acid, Caffeine, Citric Acid, Natural Flour
+            </p>
+          </div>
+
+          <!-- product facts -->
+          <div class="product__facts">
+            <!-- title -->
+            <div class="facts__title">
+              <h3>Nutrition facts</h3>
+            </div>
+
+            <!-- facts card -->
+            <div class="facts__card">
+              <div class="card__item">
+                <p class="card__title">Energy per serving</p>
+                <h4 class="card__num" id="energy">150cl</h4>
+                <p class="card__percentage" id="energy-percent">7.8%</p>
+              </div>
+              <div class="card__item">
+                <p class="card__title">Total fat</p>
+                <h4 class="card__num" id="fat">0g</h4>
+                <p class="card__percentage" id="fat-percent">0%</p>
+              </div>
+              <div class="card__item">
+                <p class="card__title">Sodium</p>
+                <h4 class="card__num" id="sodium">30mg</h4>
+                <p class="card__percentage" id="sodium-percent">1%</p>
+              </div>
+              <div class="card__item">
+                <p class="card__title">Total carbohydrates</p>
+                <h4 class="card__num" id="carbs">41g</h4>
+                <p class="card__percentage" id="carbs-percent">14%</p>
+              </div>
+              <div class="card__item">
+                <p class="card__title">Protein</p>
+                <h4 class="card__num" id="protein">0g</h4>
+                <p class="card__percentage" id="protein-percent">0%</p>
+              </div>
+            </div>
+
+            <!-- facts note -->
+            <div class="facts__note">
+              <p>Not a significant source of other nutrients</p>
+              <p>* Percentage daily values are based on a 2,000 calorie diet</p>
+            </div>
+          </div>
+
+          <!-- product buy -->
+          <div class="product__buy">
+            <button>Buy Now</button>
+          </div>
+
+          <!-- product menu -->
+          <div class="product__list">
+            <div class="list__item">
+              <img src="img/1 Pespi blue.png" alt="" />
+              <p>0.3</p>
+            </div>
+            <div class="list__item">
+              <img src="img/2 can blue.png" alt="" class="item__icon" />
+              <p>0.33</p>
+            </div>
+            <div class="list__item">
+              <img src="img/3 Pepsi blue.png" alt="" class="item__icon" />
+              <p>0.5</p>
+            </div>
+            <div class="list__item">
+              <img src="img/4 Pepsi blue.png" alt="" class="item__icon" />
+              <p>1</p>
+            </div>
+            <div class="list__item">
+              <img src="img/5 Pepsi blue.png" alt="" class="item__icon" />
+              <p>1.5</p>
+            </div>
+            <div class="list__item">
+              <img src="img/6 Pepsi blue.png" alt="" class="item__icon" />
+              <p>2</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- section middle -->
+        <section class="right__section">
+          <div class="section__img">
+            <img
+              src="img/can.png"
+              alt="Product image"
+              class="product__img"
+              id="product-img"
+            />
+          </div>
+          <div class="section__markings">
+            <!-- scale -->
+            <div class="scale">
+              <p class="scale__line"></p>
+              <p class="scale__line"></p>
+              <p class="scale__line third"></p>
+              <p class="scale__line"></p>
+              <p class="scale__line"></p>
+              <p class="scale__line"></p>
+              <p class="scale__line"></p>
+              <p class="scale__line"></p>
+              <p class="scale__line"></p>
+              <p class="scale__line"></p>
+              <p class="scale__line"></p>
+              <p class="scale__line"></p>
+              <p class="scale__line"></p>
+              <p class="scale__line"></p>
+            </div>
+
+            <!-- product quantity -->
+            <div class="product__quantity">
+              <h3 class="litres" id="product-quantity">330ml</h3>
+              <p>Serving size</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- my js -->
+    <script src="script.js"></script>
+  </body>
+</html>
