@@ -51,11 +51,11 @@ Following are the tools/languages that were used to build this project.
 
 ### Lessons learned
 
-Building this project was fun as throughout the entire process I felt that I was creating something real-world and meaningful. There were two major lessons that this project taught me:
+- Building this project was fun as throughout the entire process I felt that I was creating something real-world and meaningful. There were two major lessons that this project taught me
 
-    - Dynamically updating items that are stored in a list.
-    - How navigation sliders (next and previous buttons) can be made interactive using JS.
-    - Power of media queries to make websites responsive for all screen sizes.
+  - Dynamically updating items that are stored in a list.
+  - How navigation sliders (next and previous buttons) can be made interactive using JS.
+  - Power of media queries to make websites responsive for all screen sizes.
 
 It took decent amount of CSS to style. The design was modern and it was fun practicing CSS that was required to build this project.
 
